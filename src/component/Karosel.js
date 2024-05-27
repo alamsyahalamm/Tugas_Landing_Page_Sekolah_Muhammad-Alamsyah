@@ -3,9 +3,8 @@ import { Carousel } from "flowbite-react";
 
 function Karosel() {
   return (
-    <div className="container mx-auto">
       <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-        <Carousel>
+        <Carousel className="-z-10">
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             alt="..."
@@ -28,7 +27,6 @@ function Karosel() {
           />
         </Carousel>
       </div>
-    </div>
   );
 }
 export default Karosel;
