@@ -3,28 +3,21 @@ import { Carousel } from "flowbite-react";
 
 function Karosel() {
   return (
-      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+      <div className="h-56 sm:h-64 xl:h-[600px] 2xl:h-[700px]">
         <Carousel className="-z-10">
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+            src="/gambar/banner-1.png"
             alt="..."
+          />
+          <img 
+            src="/gambar/banner-2.png"
+            alt=""
           />
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+            src="/gambar/banner-3.png"
             alt="..."
           />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-            alt="..."
-          />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-            alt="..."
-          />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-            alt="..."
-          />
+
         </Carousel>
       </div>
   );
